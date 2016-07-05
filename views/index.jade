@@ -1,0 +1,9 @@
+if(user)
+    ul
+      li Bienvenido #{user.name}
+      li
+        a(href='logout') Salir
+else
+    ul
+      li
+        a(href='auth/facebook') Login con Facebook
